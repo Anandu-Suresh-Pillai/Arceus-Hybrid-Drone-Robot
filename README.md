@@ -44,7 +44,7 @@ This is an ongoing project.
 
 - [LICENSE](LICENSE): MIT License
 - [README.md](README.md): This file
-- [`arceus_CAD/README.MD`](arceus_CAD/README.MD)
+
 
 ## How to Use
 
