@@ -4,6 +4,8 @@ This project implements a dual-mode hybrid robot that can operate both as a quad
 
 This is an ongoing project.
 
+![Arceus Drone Rover Hybrid](arceus_images/arc_image_1)
+
 ## Repository Structure
 
 - `arceus_CAD/`
