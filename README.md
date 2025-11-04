@@ -4,7 +4,7 @@ This project implements a dual-mode hybrid robot that can operate both as a quad
 
 This is an ongoing project.
 
-(arceus_images/arc_image_1)
+(arceus_images/arc_image_1.jpg)
 
 ## Repository Structure
 
