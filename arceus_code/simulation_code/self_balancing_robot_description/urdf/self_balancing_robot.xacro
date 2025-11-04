@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<robot name="self_balancing_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find self_balancing_robot_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find self_balancing_robot_description)/urdf/self_balancing_robot.trans" />
+<xacro:include filename="$(find self_balancing_robot_description)/urdf/self_balancing_robot.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="-0.14198926540497087 0.04495117648392769 -0.04018148674552322" rpy="0 0 0"/>
+    <mass value="0.2683631773960289"/>
+    <inertia ixx="0.000728" iyy="0.000227" izz="0.000954" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find self_balancing_robot_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find self_balancing_robot_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+</robot>
