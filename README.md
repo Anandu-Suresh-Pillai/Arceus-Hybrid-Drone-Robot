@@ -63,5 +63,3 @@ This is an ongoing project.
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-
-> All information above is strictly based on the repository's files and content. No assumptions or external knowledge are included.
